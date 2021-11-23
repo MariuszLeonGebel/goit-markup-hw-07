@@ -76,8 +76,7 @@ a:focus {
 
 .header .container {
   display: flex;
-  align-items: center;
- 
+  align-items: center; 
 }
 
 .navigation {
@@ -199,7 +198,6 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #2f303a;
-  width: 1600px;
   height: 450px;
   margin: auto auto 50px;
 }  
@@ -248,7 +246,6 @@ section {
   line-height: 1.714;  
   letter-spacing: 0.03em;
   color: #757575;
-
 }
 
 .section1 .container {
@@ -352,7 +349,7 @@ section {
 
 .section3 .container ul {
   display: flex;
-  justify-content: space-around; 
+  justify-content: center; 
 }
 
 .social-media-icons {
@@ -518,7 +515,7 @@ section {
   display: block;
   width: 44px;
   height: 44px;
-  background-color: var(--on-background-color);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   margin-right: 12px;
 }
@@ -535,7 +532,7 @@ section {
   align-items: center;
 }
 
-.footer-social-media-icons-icon:hover {
+.footer-social-media-icons-icon {
   fill: var(--on-background-color);
 }
 
@@ -614,7 +611,7 @@ section {
   background: rgba(0, 0, 0, 0.2);
   display: flex;
   align-content: center;
-  transition: opacity 1s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: opacity 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .modal {
@@ -655,7 +652,7 @@ section {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 1s cubic-bezier(0.19, 1, 0.22, 1), visibility 1s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: opacity 1.5s cubic-bezier(0.19, 1, 0.22, 1), visibility 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .modal-title {
@@ -777,7 +774,6 @@ section {
   background-image: url(../images/accept_sign.svg);
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .policy-underline {
