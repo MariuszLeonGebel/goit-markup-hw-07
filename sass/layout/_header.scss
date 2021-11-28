@@ -1,0 +1,39 @@
+.header {
+  text-align: center;
+
+  & .header__email {
+    margin-left: auto;
+    margin-right: 50px;
+  }
+}
+
+.header__tel {
+  margin-right: 20px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)), url(../images/Tlo_hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2f303a;
+  height: 450px;
+  margin: auto auto 50px;
+}
+
+.hero__title {
+  color: var(--on-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 696px;
+  height: 120px;
+  margin: 0 auto;
+  padding-top: 100px;
+  flex-wrap: wrap;
+  max-width: 696px;
+  text-align: center;
+}

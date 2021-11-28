@@ -1,0 +1,34 @@
+.navigation {
+  display: flex;
+}
+
+.navigation__webstudio {
+  font-weight: bold;
+  font-size: 26px;
+  font-family: var(--secondary-font-family);
+  margin-right: 93px;
+  align-items: center;
+  width: 145px;
+  height: 31px;
+  margin-left: 50px;
+
+  & span {
+    color: var(--secondary-color);
+  }
+}
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+
+  &:not(:last-child) {
+    margin-right: 32px;
+  }
+}

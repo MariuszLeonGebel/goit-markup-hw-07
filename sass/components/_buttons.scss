@@ -1,0 +1,23 @@
+.hero__button {
+  width: 200px;
+  height: 50px;
+  margin-top: 40px;
+  color: var(--on-background-color);
+  background-color: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.875;
+  font-weight: 700;
+  border-width: 2px;
+  letter-spacing: 0.06em;
+
+  &:hover {
+    background-color: #9eb2e2;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+

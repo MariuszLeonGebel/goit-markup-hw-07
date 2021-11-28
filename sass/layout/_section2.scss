@@ -1,0 +1,39 @@
+.section2 {
+  &__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  & .container ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__label {
+    position: absolute;
+    top: 224px;
+    left: 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.143;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: rgba(47, 48, 58, 0.8);
+    margin: 0 auto;
+    width: 370px;
+  }
+}
+
